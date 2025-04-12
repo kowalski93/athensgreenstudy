@@ -1,6 +1,11 @@
 # Athens urban green study supplementary material (JURSE 2025)
 Supplementary material for the paper "The relationship of NDVI and GVI, and the effect of building heights: A case study in Athens, Greece.", published in JURSE 2025.
 
+### Dataset
+The main dataset is located in the data folder of this repo. It represents the point sample within Athens with GVIs, buffered at 50m. and populated with average NDVI values of each dataset (Landsat, Planetscope, Rapideye, Sentinel, each on two dates), and average BH value within those 50m. For the analysis, matching dates were honored, which means a point with streetview acquisition date of 2019, would be matched with NDVI values of 2019, whereas streetview acquisition dates of 2014 were matched with NDVI values of 2014-15.
+![image](https://github.com/user-attachments/assets/ef40a480-1582-4832-87be-732ad18ec4c9)
+
+
 ### Study workflow
 ![Paper workflow - with simple linear2](https://github.com/user-attachments/assets/6c85a0c2-e839-42ef-83ac-4eae89cc8450)
 
